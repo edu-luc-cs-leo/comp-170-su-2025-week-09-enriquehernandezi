@@ -100,3 +100,10 @@ def fibonacci_iterative(n): # fibonacci is when the digits on a list are the sum
             b = temp # now b is the new fibonacci number
         result = b
     return result
+
+#Reflection
+# in person.py I used only _birthday when I should have mixed _birthdy and birthday since _ only means it is private
+# comments in my version are disorganized while the solutions one is in  proper docstrings
+# in birthday.py for set_month i overexplained when i could have made it simpler in the if statement and made self month private with an underscore
+# again should've used docstrings for comments
+# and different methodology in calculation of day of year so its not readable to many
